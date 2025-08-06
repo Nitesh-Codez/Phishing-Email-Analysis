@@ -1,0 +1,29 @@
+# 📧 Phishing Email Analysis Report
+
+## 🔍 Sample Email (Simulated)
+
+> From: PayPal Security <security@paypa1.com>  
+> Subject: Your PayPal Account Has Been Limited  
+> Link: https://paypal-secure-verification.com  
+
+---
+
+## 🚨 Phishing Indicators Found:
+
+1. **Spoofed Sender Email** → `@paypa1.com` instead of `@paypal.com`
+2. **Suspicious Link** → redirects to a phishing domain
+3. **Urgent & Threatening Language** → "Failure to do so within 24 hours..."
+4. **Fake Branding** → Pretends to be PayPal
+5. **No personalization** → Generic "Dear user"
+
+---
+
+## 🛠 Tools Used:
+- Header Analyzer (MXToolbox)
+- VirusTotal (for link analysis)
+- GitHub for documentation
+
+---
+
+## ✅ Conclusion:
+This is a clear phishing attempt using spoofed email, urgent tone, fake link, and brand impersonation.
